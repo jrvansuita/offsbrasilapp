@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:offsbrasil/const/const.dart';
-import 'package:offsbrasil/views/start-page.dart';
+import 'package:offsbrasil/views/start_page.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -67,7 +67,7 @@ class LoginPage extends StatelessWidget {
                     loginData.write('pass', passController.text);
                     loginData.write('logged', true);
 
-                    Get.to(StartPage());
+                    Get.to(const StartPage());
                   },
                   child: const Text(
                     'ENTRAR',

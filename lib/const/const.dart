@@ -1,3 +1,5 @@
+// ignore_for_file: constant_identifier_names
+
 import 'package:flutter/rendering.dart';
 
 const LOGIN_URL = "https://cliente.offsbrasil.com.br/br/login.php";
