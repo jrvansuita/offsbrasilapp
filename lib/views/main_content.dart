@@ -60,6 +60,7 @@ class _MainContentState extends State<MainContent> {
 
         await FlutterDownloader.enqueue(
           url: "$url",
+
           savedDir: dir.toString(),
           showNotification: false,
           openFileFromNotification: false,
